@@ -10,14 +10,14 @@ $(document).ready(() => {
   const links = [
     {
       name: 'blacc | ur poor | no dad | maidenless',
-      link: 'clockwork',
+      link: 'blacc',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://ogusers.com/${link.link}" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://twitch.tv/${link.link}" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
